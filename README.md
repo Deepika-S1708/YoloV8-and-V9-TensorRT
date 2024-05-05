@@ -7,7 +7,7 @@ YoloV8_Model - Single View
 YoloV9_Model - Multi View
 ![Picture23](https://github.com/Deepika-S1708/YoloV8-and-V9-TensorRT/assets/68435141/91312da5-57ec-43c3-8ce0-ff45f593f586)
 
-YoloV8_Model Custom Dataset - Multiview
+YoloV8_Model Custom Dataset (Tensor RT) - Multiview
 
 ![3_06-usps-stitched_15710_jpg rf 2fa5159713956d3031586c1ef81ca4d0](https://github.com/Deepika-S1708/YoloV8-and-V9-TensorRT/assets/68435141/3bbed834-017d-4942-b821-2d9275d73658)
 
