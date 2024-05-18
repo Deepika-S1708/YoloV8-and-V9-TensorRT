@@ -1,5 +1,4 @@
 # Yolov8 and V9 TensorRT
-
 ---
 
 
@@ -25,7 +24,7 @@
     ultralytics.checks()
 
    ```
-4. Prepare your own PyTorch weight such as `yolov8s.pt`.
+4. Prepare your own PyTorch weight such as `yolov8s.pt, 'yolov8m', 'yolo9c'.
 
 ***NOTICE:***
 
