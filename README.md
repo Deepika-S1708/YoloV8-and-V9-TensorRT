@@ -63,5 +63,39 @@ Download the zip files and extract the zip files of datasets.
 ```
 we have mentioned 35 epochs and images size 1920 to get a better mean average precision values of each epochs weight and which epochs will provide best values.
 
+8. Install the tensorrt dependencies 
+``` shell
+!pip install torch torchvision onnx
+!pip install tensorrt
+!pip install tensorrt_lean
+!pip install tensorrt_dispatch
+!pip install onnx onnxsim onnxruntime-gpu
+```
+Downloading the torch vision, tensorrt and onnx packages are supporting.
+
+9. Check the tensorrt version.
+``` shell
+import tensorrt
+print(tensorrt.__version__)
+assert tensorrt.Builder(tensorrt.Logger())
+```
+
+10.  Covert the our custom model best.pt to tensorrt version as best.engine and predict the model to do inference with tensorrt model.
+``` shell
+from ultralytics import YOLO
+import numpy as np
+np.bool = np.bool_
+
+
+!yolo export model="/path_to_/weights/best.pt" format=engine
+# creates 'best.engine'
+
+
+# Run inference with the exported model
+!yolo predict model='/path_to_/weights/best.engine' imgsz=1920 source='/content/crossv2'
+```
+
+
+
 
 
