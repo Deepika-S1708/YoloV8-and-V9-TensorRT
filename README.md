@@ -38,7 +38,7 @@ If you get ONNX from origin [`ultralytics`](https://github.com/ultralytics/ultra
 
 You can only use the `Python` inference code to deserialize the engine and do inference.
 
-5. We have created the **custom dataset ** using 'Roboflow'
+5. We have created the **custom dataset ** using 'Roboflow' with annotate tranied images.
 
 6. Make directory as datasets inside the datasets folder import the roboflow api key download the dependencies packages to support.
  ``` shell  
