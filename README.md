@@ -92,7 +92,7 @@ np.bool = np.bool_
 
 
 # Run inference with the exported model
-!yolo predict model='/path_to_/weights/best.engine' imgsz=1920 source='/content/crossv2'
+!yolo predict model='/path_to_/weights/best.engine' imgsz=1920 source='/path_to/test_images'
 ```
 
 
