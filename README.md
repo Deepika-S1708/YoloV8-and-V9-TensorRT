@@ -80,7 +80,7 @@ print(tensorrt.__version__)
 assert tensorrt.Builder(tensorrt.Logger())
 ```
 
-10.  Covert the our custom model best.pt to tensorrt version as best.engine and predict the model to do inference with tensorrt model.
+# Covert the our custom model best.pt to tensorrt version as best.engine and predict the model to do inference with tensorrt model.
 ``` shell
 from ultralytics import YOLO
 import numpy as np
