@@ -24,7 +24,7 @@
     ultralytics.checks()
 
    ```
-4. Prepare your own PyTorch weight such as `yolov8s.pt`, `yolov8m.pt`, `yolo9c.pt`.
+4. Prepare your own PyTorch weight such as `yolov8s.pt`, `yolo9c.pt`.
 
 ***NOTICE:***
 
